@@ -8,3 +8,7 @@ test('testing for correct operation of Person class', () => {
 test('testing for correct operation of Soldier class', () => {
   expect(soldier.soldierDetails()).toBe('Captain Brad cooper is a 36 year old american soldier');
 })
+
+test('testing for class property', () => {
+  expect(soldier.gender).toBe('male');
+})
